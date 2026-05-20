@@ -54,7 +54,7 @@ int main (){
 }
 
 // using break to break loop 
-
+// keywords is break is keywords 
 int main(){
     int n = 50;
     int sum = 0;
