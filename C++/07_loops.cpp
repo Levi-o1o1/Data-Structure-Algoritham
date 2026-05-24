@@ -52,3 +52,19 @@ int main (){
     cout << endl; // its optional for end line 
     return 0;
 }
+
+// using break to break loop 
+
+int main(){
+    int n = 50;
+    int sum = 0;
+
+    for(int i=1; i<=n; i++){  // 1 + 2 + 3 + 4 + 5 => 15 output
+        sum += i;
+        if(i == 5){
+            break;
+        }
+    }
+    cout << "sum is " << sum << endl;
+    return 0;
+}
