@@ -19,7 +19,7 @@ print("pop element", popElement)
 # stack after popped top element of stack 
 print("stack after pop ", stack)
 
-#check stack empty or not 
+#check stack empty or not its return Ture/False in output now stack is not empty 
 
 isEmpty = not bool(stack)
 
