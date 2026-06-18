@@ -18,3 +18,13 @@ print("pop element", popElement)
 
 # stack after popped top element of stack 
 print("stack after pop ", stack)
+
+#check stack empty or not 
+
+isEmpty = not bool(stack)
+
+print("is empty : ", isEmpty)
+
+# size of a stack how many element are store in a stack to view we use 
+
+print("size", len(stack))
