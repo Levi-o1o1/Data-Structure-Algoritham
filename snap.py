@@ -10,7 +10,9 @@ def next_shape():
     previous_color = current_color
 
     
-    C.delete(shape)
+    c.delete(shape)
     if len(shapes) > 0:
         c.itemconfigure(shape. state= NORMAL)
-        current_color = c.itemcget()
+        current_color = c.itemcget(shape, 'fill')
+        root.after(1000, next_shape)
+    else
