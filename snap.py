@@ -18,4 +18,6 @@ def next_shape():
     else
         c.unbind('q')
         c.unbind('p')
-        if p
+        if player1_score > player2_score:
+            c.create_text(200, 200, text='winner: Player 1')
+        elif
