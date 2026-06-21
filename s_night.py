@@ -20,4 +20,7 @@ while True:
     ranPts = randint(2,5) * 2 + 1
     ranSize = randint(10, 50)
     ranCol = (random(), random(), random())
-    ranX
+    ranX = randint(-350, 300)
+    ranY = randint(-250, 250)
+
+    draw_star(ranPts, ranSize, ranCol, ranX, ranY)
