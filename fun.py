@@ -55,6 +55,7 @@ retangle(5, 5, 'black')
 #mouth
 t.goto(-65, 135)
 retangle(40, 5, 'black')
-
+t.showturtle()
 
 t.hideturtle()
+t.isvisible()
