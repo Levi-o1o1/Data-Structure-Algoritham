@@ -22,5 +22,6 @@ while True:
     ranCol = (random(), random(), random())
     ranX = randint(-350, 300)
     ranY = randint(-250, 250)
-
+    
+    
     draw_star(ranPts, ranSize, ranCol, ranX, ranY)
