@@ -16,3 +16,6 @@ def next_shape():
         current_color = c.itemcget(shape, 'fill')
         root.after(1000, next_shape)
     else
+        c.unbind('q')
+        c.unbind('p')
+        if p
