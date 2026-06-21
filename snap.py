@@ -11,4 +11,6 @@ def next_shape():
 
     
     C.delete(shape)
-    if len(s)
+    if len(shapes) > 0:
+        c.itemconfigure(shape. state= NORMAL)
+        current_color = c.itemcget()
