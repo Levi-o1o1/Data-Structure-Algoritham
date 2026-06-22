@@ -29,12 +29,12 @@
 
 # Input currency in rupees and output in USD.
 
-curr = int(input("Enter value :"))
-dollar_rate = 96
-if curr :
-   out = curr / dollar_rate
-else:
-    print("worng value :")
+# curr = int(input("Enter value :"))
+# dollar_rate = 96
+# if curr :
+#    out = curr / dollar_rate
+# else:
+#     print("worng value :")
 
-print(out, "doller")
+# print(out, "doller")
 
