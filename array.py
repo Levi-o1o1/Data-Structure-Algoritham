@@ -10,3 +10,10 @@ print("\n")
 for x in val:
      print(x, end=' , ')
 
+print("\n")
+print(val.typecode)
+
+val.reverse()
+
+for i in range(0,6):
+     print(val[i], end=" ")
