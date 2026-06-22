@@ -11,4 +11,4 @@ print(a + int(b))
 
 c = 1.9
 d = 9
-print(c + 9)
+print(c + 9)  # output is 10.9
