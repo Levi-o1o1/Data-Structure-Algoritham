@@ -38,3 +38,17 @@ int main(){
     cout << endl;
     return 0;
 }
+
+// pro level of loop name 
+
+int main (){
+    int n = 20;  //  loop end
+    int i = 1; // loop start
+
+    while(i <= n){
+        cout << i << "\n";   // \n this n are use to print every number in next line
+        i++;
+    }
+    cout << endl; // its optional for end line 
+    return 0;
+}
