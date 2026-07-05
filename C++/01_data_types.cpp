@@ -1,3 +1,5 @@
+// data types are use to store defferent values in accourding it's types eg :: numbers stores in int data types 
+// charcetrs stores in char data types so data types simple contners 
 // int takes 4 bytes memorey 
 // char takes 1 bytes
 // float takes 4 bytes
