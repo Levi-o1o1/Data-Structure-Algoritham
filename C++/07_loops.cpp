@@ -24,3 +24,17 @@ int main(){
     cout << endl; // end the loop 
     return 0;
 }
+
+// control with n 
+
+int main(){
+    int n = 20;
+    int a = 1;
+
+    while(a <= n){
+        cout << a << "\n";
+        a++;
+    }
+    cout << endl;
+    return 0;
+}
