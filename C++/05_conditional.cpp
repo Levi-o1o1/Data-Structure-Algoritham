@@ -89,3 +89,16 @@ int main(){
         cout << "it's upercase" "\n";
     }
 }
+
+// same program with use of ASIC num values it's look like this ::
+int main(){
+    char ch ;
+    cout << "Enter the char :: " "\n";
+    cin >> ch ;
+
+    if (ch >= 65 && ch <= 90){
+        cout << " it's Uppercase " "\n";
+    }else{
+        cout << "it's Lowercase" "\n";
+    }
+}
