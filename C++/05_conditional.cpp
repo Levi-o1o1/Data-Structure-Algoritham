@@ -83,7 +83,9 @@ int main(){
     cout << "Enter the char :: " "\n";
     cin >> ch ;
 
-    if (ch => 'a' && ch <= 'z'){
-        cout << ""
+    if (ch >= 'a' && ch <= 'z'){
+        cout << " it's lowercase " "\n";
+    }else{
+        cout << "it's upercase" "\n";
     }
 }
