@@ -75,3 +75,15 @@ int main (){
         cout << "you are faill ::" "\n";
     }
 }
+
+// lower case upper case program we want to print if char lower so print lowercase if char is upper print uppercase
+
+int main(){
+    char ch ;
+    cout << "Enter the char :: " "\n";
+    cin >> ch ;
+
+    if (ch => 'a' && ch <= 'z'){
+        cout << ""
+    }
+}
