@@ -59,3 +59,19 @@ int main (){
         cout << "you enter worng thing ::" << endl;
     }
 }
+
+// with logical op use 
+
+int main (){
+    int marks;
+    cout << "Enter your marks ::" << "\n";
+    cin >> marks;
+
+    if( marks >= 90){
+        cout<< "your are toppper :: " "\n";
+    } else if (marks >= 80 && marks < 90){
+        cout << "you are avrage :: " "\n";
+    }else {
+        cout << "you are faill ::" "\n";
+    }
+}
