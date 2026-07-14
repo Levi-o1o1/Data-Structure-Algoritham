@@ -40,3 +40,22 @@ int main (){
     }
     return 0;
 }
+
+
+// else if use
+
+int main (){
+    int marks;
+    cout << "Enter your marks ::" << "\n";
+    cin >> marks;
+
+    if( marks >= 90){
+        cout<< "your are toppper :: " "\n";
+    } else if (marks < 80){
+        cout << "you are avrage :: " << endl;
+    } else if (marks < 40 ){
+        cout << "you are faill :: " << endl;
+    }else {
+        cout << "you enter worng thing ::" << endl;
+    }
+}
