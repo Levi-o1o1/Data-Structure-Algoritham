@@ -42,3 +42,10 @@ int main (){
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // 3 ) Logical opeerators 
+//  they are 3 types OR || , AND &&  , NOT !
+
+int main(){
+    cout << (3 > 1) << endl; // output is Ture = 1 but if we want False 0 we use not(!) operator
+    cout << !(3 > 1) << endl; // output is False = 0 
+}
+// logical not reverse the original ans 
