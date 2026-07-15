@@ -86,3 +86,21 @@ int main(){
     cout << "a = "<< a << endl; // output 11
     return 0;
 }
+
+// Decrement --a oprators pre decrement --a
+int main(){
+    int a = 10;
+    int b = --a ; // update :: work
+    cout << "b = " << b << endl;  //ouput 9
+    cout << "a = "<< a << endl; // output 9
+    return 0;
+}
+
+// a-- post decrement 
+int main(){
+    int a = 10;
+    int b = a--; // work : update
+    cout << "b = " << b << endl;  //ouput 10
+    cout << "a = "<< a << endl; // output 9
+    return 0;
+}
