@@ -63,3 +63,26 @@ int main (){
 int main() {
     cout << ((3>1) && (3>1)) << endl; // output is 1 true 
 }
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// Unary operators  U in unary is 1 or B in binary is 2 binary operators use perform task use of two values like  a+b + is binary opertor
+// unary operators use only one value like a++; its add 1 in a we have 2 a++
+// a++ ( first we do work,than update) ++a  (first we do update , than work ) example ::
+// with Increment++ method
+// a++ post increment op
+int main(){
+    int a = 10;
+    int b = a++; // work : update
+    cout << "b = " << b << endl;  //ouput 10
+    cout << "a = "<< a << endl; // output 11
+    return 0;
+}
+
+// in ++a pre increment op
+int main(){
+    int a = 10;
+    int b = ++a; // update : work
+    cout << "b = " << b << endl;  //ouput 11
+    cout << "a = "<< a << endl; // output 11
+    return 0;
+}
