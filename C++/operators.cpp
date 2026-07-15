@@ -49,3 +49,11 @@ int main(){
     cout << !(3 > 1) << endl; // output is False = 0 
 }
 // logical not reverse the original ans 
+
+// logical OR (||) are use to in two condition's in one is true so they give true eg ::
+
+int main (){
+    cout << ((3>1) || (3 < 5) )<< endl; // if one are false or one are ture give 1
+    cout << ((3<1) || (3<1)) << endl; // if both are false = false 0 
+    return 0;
+}
