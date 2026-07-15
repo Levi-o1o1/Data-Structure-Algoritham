@@ -18,4 +18,15 @@ int main (){
     double b =2;
     cout << (a/b) << endl; // output is 2.5 because double contain extra value rather than int data type , you can use float also 
 }
-// 2) logical op 
+// with type casting 
+int main (){
+    cout << (5 / (double)2) << endl;
+}
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// 2) logical op
+// (=) single equal are use to asgin value 
+// (==) is orignal equal to in c++ to to use in equal 
+// (<) less than (>) greater than 
+// (<=) less than equal to (>=) greather than equal to 
+// (!=) not equal 
