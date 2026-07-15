@@ -57,3 +57,9 @@ int main (){
     cout << ((3<1) || (3<1)) << endl; // if both are false = false 0 
     return 0;
 }
+
+// logical AND (&&) is oposite of OR if all are ture they give true , if one are false they give false 
+
+int main() {
+    cout << ((3>1) && (3>1)) << endl; // output is 1 true 
+}
