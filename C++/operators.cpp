@@ -30,3 +30,12 @@ int main (){
 // (<) less than (>) greater than 
 // (<=) less than equal to (>=) greather than equal to 
 // (!=) not equal 
+int main (){
+    cout << (3 < 5 ) << endl;  // output is True = 1
+    cout << (3 > 5) << endl;   // output is False = 0
+    cout << (3 <= 5) << endl;  // output is True = 1
+    cout << (3 >= 5) << endl;  // output is False = 0
+    cout << (3 != 3) << endl;  // output is False = 0
+    cout << (3 != 5) << endl; // output is True = 1
+    return 0;
+}
