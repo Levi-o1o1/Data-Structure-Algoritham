@@ -24,7 +24,7 @@ int main (){
 }
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-// 2) logical op
+// 2) Relational Operators
 // (=) single equal are use to asgin value 
 // (==) is orignal equal to in c++ to to use in equal 
 // (<) less than (>) greater than 
@@ -39,3 +39,6 @@ int main (){
     cout << (3 != 5) << endl; // output is True = 1
     return 0;
 }
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// 3 ) Logical opeerators 
