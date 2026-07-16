@@ -10,3 +10,12 @@ int main() {
 
     return 0;
 }
+
+// with for loop 
+int main(){
+    for(int i = 1; i <= 10; i++){
+        std::cout<< i << "\n";
+    }
+        std::cout<<"happy death day \n";
+    return 0;
+}
