@@ -19,3 +19,13 @@ int main(){
         std::cout<<"happy death day \n";
     return 0;
 }
+
+// program of print table of 2 
+
+int main(){
+    for(int i = 2; i <= 20; i = i+2){
+        std::cout<< i << "\n";
+    }
+
+return 0;
+}
