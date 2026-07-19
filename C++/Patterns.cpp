@@ -51,3 +51,20 @@ int main(){
   }
   
 }
+
+
+//  square pattern if i want to print 123 "\n" 345 "\n" 678 "\n" so i need 
+//  outer loop n times run n = 3;
+// inner loop 
+
+int main(){
+    int n = 3;
+    int num = 1;
+    for(int i = 0; i<n; i++){
+        for(int j=0; j<n; j++){
+            cout << num  << " " ;
+            num++;
+        }
+        cout << endl;
+    }
+}
