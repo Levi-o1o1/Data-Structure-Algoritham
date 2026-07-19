@@ -21,7 +21,7 @@ int main(){
 // a b c d e 
 
 // right trangle  abc pattern
-
+// ascii vlue of a is 97 k is 107 and A is 65 
 int main(){
     
     for(char i = 97; i<= 107; ++i){
@@ -31,4 +31,23 @@ int main(){
         cout << endl;
     }
 
+}
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\
+// *  
+// *  *  
+// *  *  *  
+// *  *  *  *  
+// *  *  *  *  *  
+// *  *  *  *  *  * 
+
+int main(){
+    int n = 5;
+  for(int i = 0; i<= n; i++){
+      for(int j = 0; j<= i; j++){
+          cout << "* " << " ";
+      }
+      cout << endl;
+  }
+  
 }
