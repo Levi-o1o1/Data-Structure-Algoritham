@@ -12,3 +12,23 @@ int main(){
     }
 
 }
+
+// acdefg pattern 
+// a
+// a b
+// a b c
+// a b c d
+// a b c d e 
+
+// right trangle  abc pattern
+
+int main(){
+    
+    for(char i = 97; i<= 107; ++i){
+        for(char j = 97; j<=i; ++j){
+            cout<< i << " ";
+        }
+        cout << endl;
+    }
+
+}
