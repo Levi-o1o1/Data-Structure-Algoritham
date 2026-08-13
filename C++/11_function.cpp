@@ -36,3 +36,19 @@ int main(){
     cout << factN(4) << endl;
     return 0;
 }
+
+
+// 
+int factN(int n){
+    int fact = 1;
+
+    for(int i=1; i<=n; i++){
+        fact *= i;
+    }
+    return fact;
+}
+
+int main(){
+    cout << factN(8) << endl;
+    cout << factN(9) << endl;
+}
