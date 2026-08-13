@@ -1,7 +1,7 @@
 // fucntion are use to do something many times 
 
 # include <iostream>
-using nmaespace std;
+using namespace std;
 
 double sum(double a, double b){
     double s = a + b;
@@ -16,6 +16,6 @@ int minOfTwo(int a, int b){
     }
 }
 int main(){
-    cout << "main = " << minOfTwo
+    cout << "min = " << minOfTwo(5 , 3) << endl;
     return 0;
 }
