@@ -52,3 +52,23 @@ int main(){
     cout << factN(8) << endl;
     cout << factN(9) << endl;
 }
+
+/ calculate sum of digits of a number
+int sumOfDigits( int num){
+    int digSum = 0;
+
+    while(num > 0){
+        int lastDig = num % 10;
+        num/= 10;
+
+        digSum += lastDig;
+    }
+
+    return digSum;
+}
+
+int main(){
+    cout << "sum = " << sumOfDigits(2356) << endl;
+
+    return 0;
+}
