@@ -1,4 +1,4 @@
-// we can create linked list using two ways (1)class & (2) struct;
+// we can create linked list using two ways (1)class & (2) struct (3)  functions;
 
 // struct way
 #include<iostream>
