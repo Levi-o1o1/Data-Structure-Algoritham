@@ -12,4 +12,15 @@ class Node{
     }
 };
 
-//
+// A function that traverse and print the singly linked list
+
+void traverse(Node* head){
+    while (head != NULL){
+        cout<< head->data;
+
+        if(head-> next != NULL)
+           cout << "->";
+           head = head -> next;
+    }
+    cout << endl; 
+}
