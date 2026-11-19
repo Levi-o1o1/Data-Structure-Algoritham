@@ -44,5 +44,9 @@ void bubbleSort(int arr[], int n){
 
 
 int main(){
+    int arr[] = {12,3,4,5,2};
+    int n = 5;
+    bubbleSort(arr, n);
     
+    return 0;
 }
