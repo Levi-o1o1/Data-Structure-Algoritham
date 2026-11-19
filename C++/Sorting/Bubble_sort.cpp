@@ -28,3 +28,21 @@ int main(){
     }
     return 0;
 }
+
+
+// bubble sort recap other way to write 
+
+
+void bubbleSort(int arr[], int n){
+
+    for(int i = 0; i< n-1; i++){
+        for(int j = 0; j< -i-1; j++){
+            if
+        }
+    }
+}
+
+
+int main(){
+    
+}
