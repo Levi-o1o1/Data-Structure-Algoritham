@@ -8,7 +8,7 @@ void SelectionSort(int arr[], int n){ // time comp  O(n^2)
 
     for(int i =0; i< n-1; i++){
         int small = i;
-        for(int j =0; j< n; j++){
+        for(int j = i+1; j< n; j++){
             if(arr[j]< arr[small]){
                 small = j;
             }
@@ -16,17 +16,19 @@ void SelectionSort(int arr[], int n){ // time comp  O(n^2)
         swap(arr[i], arr[small]);
     }
 
-
-
-
-
 }
-
+void printArray(int arr[], int n ){
+    for(int i =0; i<n; i++){
+        cout << arr[i]<< " ";
+    }
+    cout << endl;
+}
 
 int main(){
        int n = 6;
        int arr[] = {12,3,4,5,6,1};
        SelectionSort(arr, n);
+       printArray(arr, n);
 
        return 0;
 
