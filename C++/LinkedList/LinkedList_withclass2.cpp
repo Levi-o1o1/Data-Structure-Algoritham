@@ -13,6 +13,15 @@ class Node{
 		} 
         
 };
+
+
+void InsertFront(int val){
+	
+	if(Node* temp = new Node(val)){
+		temp -> next = head;
+		head = temp;
+	}
+}
 int main(){
 	
    Node* node1 = new Node(50);
