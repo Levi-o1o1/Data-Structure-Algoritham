@@ -1,0 +1,33 @@
+# exe files
+
+*.exe
+*.out
+*.app
+
+#obj files
+*.o
+*.obj
+
+#static and dynamic lib
+*.a
+*.lib
+*.dll
+*.so
+
+#debug files
+*.pdb
+*.ilk
+
+#build dir
+build/
+cmake-build-*/
+#ide files
+.vscode/
+.idea/
+
+#temp files
+*.tmp
+*.log
+# backup files
+*.bak
+*~
