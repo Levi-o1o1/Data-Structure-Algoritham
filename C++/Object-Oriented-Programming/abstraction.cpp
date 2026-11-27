@@ -3,13 +3,13 @@ using std:: string;
 
 // abstraction using abstract classes
 
-// abstract class
+// abstract class  // parent class
 class Vehicle{
-	public:
+	protected:
 	     virtual void start() = 0;
 };
 
-// derived class
+// derived class  child
 
 class Car : public Vehicle{
 	public:
@@ -19,8 +19,7 @@ class Car : public Vehicle{
 	   }
 };
 
-// another derived class
-
+// another derived class another child
 class Bike : public Vehicle{
 	public:
 	void start() override{
